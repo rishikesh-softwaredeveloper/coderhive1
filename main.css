@@ -1,0 +1,129 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url("download.png");
+    background-size: cover;
+    background-position: center ;
+    background-attachment: fixed;
+  }
+  /*--- navigation bar ---*/
+  .navbar {
+    background-color: rgb(216, 223, 226);
+    background-size: cover;
+    background-position: center ;
+    position: relative;
+    background-attachment: fixed;    
+    }
+
+  .nav-link,
+  .navbar-brand {
+    color:rgb(5, 5, 5);
+    cursor: pointer;
+  }
+  .nav-link {
+    margin-right: 1em !important;
+  }
+  .nav-link:hover {
+    color: #000;
+  }
+  .navbar-collapse {
+    justify-content: flex-end;
+  }  
+/* header h1 */
+   h1{
+     text-align: center;
+     color: rgb(3, 3, 3);
+     margin-top: 30px;   
+   }
+  /* header p1 */
+  .p1{
+    color: rgb(8, 0, 0);
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+   }   
+   /* apply button */
+    .but {
+   text-align: center;
+  }
+  .description button {
+    border:1px solid #080808;
+    background:rgb(140, 240, 173);
+    border-radius: 0;
+    color:rgb(3, 0, 0);
+  }
+  
+  .description button:hover {
+    border:1px solid #fff;
+    background:rgb(247, 243, 243);
+    color:rgba(7, 0, 0, 0.973);
+  }
+
+   .features {
+    margin: 4em auto;
+    padding: 1em;
+    position: relative;
+  } 
+  .feature-title{
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    margin-left:20px;
+  }
+  #feature-p{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+  }
+ 
+  .con{
+    background-color:rgb(252, 249, 249);
+    margin-left: 0px;
+    margin-right: 0px;
+    
+  }
+  #tit1{
+    color: rgb(248, 4, 16);
+  }
+  #tit2{
+    color:blue;
+  }
+  #mid{
+    text-align: center;
+    color: white;
+  
+  }  
+  /* Apply form */
+  label{
+    line-height: 1.5rem;
+    line-break: normal;
+    
+}
+.dark1{
+  background-color: #d0d2d3;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  padding: 15px;
+  text-align: center;
+}
+/* technoloys */
+.tech{
+  text-align: center;
+  font-size:xx-large;
+  color: hotpink;
+}
+.tech-p{
+  text-align: center;
+  color: #000;
+}
+/* logos */
+ img{
+  height: 100px;
+  width: 100px;
+} 
+.flex-container{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
